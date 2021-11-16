@@ -5,3 +5,4 @@ A real-time chatting app made using Action Cable with Semantic UI as frontend.
 
 
 Currently having troubles with deploying it on heroku, it does work on mac though fsr.
+A project inspired by "The Complete Ruby on Rails Developer Course" on Udemy
