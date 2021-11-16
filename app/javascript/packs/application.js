@@ -18,6 +18,18 @@ window.scroll_bottom = function() {
     }
 }
 
+window.submit_message = function(){
+    var textfield = document.getElementById('message_body');
+
+    textfield.addEventListener('keyup',
+        (e) => {
+        if (e.keyCode === 13) {
+            e.target.value = '';
+        }
+    });
+};
+// ^ Recode to KeyboardEvent instead of deprecated keyCode
+
 import '@doabit/semantic-ui-sass'
 // $(document).on("turbolinks:load", () => $(".ui.dropdown").dropdown());
 
@@ -25,5 +37,6 @@ $(document).on('turbolinks:load', function(){$(".ui.dropdown").dropdown();
     $('.message .close').on('click', function(){
     $(this).closest('.message').transition('fade')
     });
+    submit_message();
     scroll_bottom();
 });
