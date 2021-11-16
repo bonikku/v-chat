@@ -1,3 +1,3 @@
 # README
 
-I'm slightly in a hurry but this readme will be finished at 10PM 16th Nov 2021!
+A real-time chatting app made using Action Cable with Semantic UI as frontend.
