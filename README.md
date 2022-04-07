@@ -4,8 +4,11 @@ A real-time chatting app made with Action Cable and Semantic UI as frontend.
 # Demo
 Link: https://v-chat-nikola.herokuapp.com/
 There are two users created for testing the app on production:
+
 User#1
+
 User#2
+
 both are using the same password "password" ^^
 
  ## Table of Contents
