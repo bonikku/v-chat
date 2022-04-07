@@ -1,6 +1,12 @@
 # V-Chat
 A real-time chatting app made with Action Cable and Semantic UI as frontend.
 ![Screenshot 2021-11-16 at 20 28 23](https://user-images.githubusercontent.com/41334805/142052409-6fe23725-5fcd-4e72-accf-db394dde12ec.png)
+# Demo
+Link: https://v-chat-nikola.herokuapp.com/
+There are two users created for testing the app on production:
+User#1
+User#2
+both are using the same password "password" ^^
 
  ## Table of Contents
 * [Running the app](#how-to-run)
